@@ -2,6 +2,7 @@
   "name": "Giro",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-methods": "^7.17.12",
     "@popperjs/core": "^2.11.5",
     "@rails/webpacker": "4.3.0",
     "bootstrap": "^5.1.3",
