@@ -1,8 +1,13 @@
 {
+  "name": "Giro",
+  "private": true,
   "dependencies": {
     "@popperjs/core": "^2.11.5",
     "@rails/webpacker": "4.3.0",
     "bootstrap": "^5.1.3"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "scripts": {
     "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds",
